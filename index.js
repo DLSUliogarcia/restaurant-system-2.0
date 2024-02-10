@@ -11,7 +11,7 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 
 // import module `connect-mongo`
-const MongoStore = require('connect-mongo')(session);;
+const MongoStore = require('connect-mongo')(session);
 
 // import module `routes` from `./routes/routes.js`
 const routes = require('./routes/routes.js');

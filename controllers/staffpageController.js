@@ -2,9 +2,9 @@
 const db = require('../models/db.js');
 
 // import module `User` from `../models/UserModel.js`
-const User = require('../models/UserModel.js');
+//const User = require('../models/UserModel.js');
 
-// import module `User` from `../models/UserModel.js`
+// import module `User` from `../models/OrderModel.js`
 const Order = require('../models/OrderModel.js');
 
 /*
