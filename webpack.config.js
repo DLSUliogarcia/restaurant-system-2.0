@@ -10,6 +10,7 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
+    target: 'node',
     module: {
         rules: [
             {
@@ -28,20 +29,7 @@ module.exports = {
     },
     resolve: {
         fallback: {
-            "fs": false,
-            "module": false,
-            "tls": false,
-            "net": false,
-            "child_process": false,
-            "dns": false,
-            "nock": false,
-            "aws-sdk": false,
-            "mock-aws-s3": false,
-            "async_hooks": false,
-            "mongodb-client-encryption": false,
-            "aws4": false,
-            "npm": false,
-            "node-gyp": false
+            // "mongodb-client-encryption": false,
         },
     },
     plugins: [

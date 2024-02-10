@@ -8,7 +8,7 @@ const User = require('../models/UserModel.js');
 const Order = require('../models/OrderModel.js');
 
 // import module `bcrypt`
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const staffloginController= {
 
